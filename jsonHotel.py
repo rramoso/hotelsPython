@@ -7,7 +7,7 @@ STI = "http://terminal2.expedia.com/x/mhotels/search?city=STI&checkInDate=2016-1
 SDQ = "http://terminal2.expedia.com/x/mhotels/search?city=SDQ&checkInDate=2016-12-01&checkOutDate=2016-12-03&room1=2&apikey=3oFyYOgQptyxEzCRjV81Bhzy0FR7pb6d"
 SFO = "http://terminal2.expedia.com/x/mhotels/search?city=SFO&checkInDate=2016-12-01&checkOutDate=2016-12-03&room1=2&apikey=3oFyYOgQptyxEzCRjV81Bhzy0FR7pb6d"
 
-cities = {PUJ,STI,SDQ,SFO]
+cities = [PUJ,STI,SDQ,SFO]
 hotelList = []
 hotelNames = []
 for city_code in cities: 
